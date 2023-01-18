@@ -25,3 +25,26 @@ To give up - type "quit"
 To exit the game (close application) - type "exit"
 
 ## Application architecture
+
+### Packages used: 
+
+**Microsoft.Extensions.Hosting** - to use at least dependency injection engine
+
+**Spectre.Console** - cool package to easily draw console outputs 
+
+### Business logic devided in couple blocks:
+
+**GameManager** - contains game business logic
+
+**GameDesigner** - generate map end iniit game data
+
+**GameViewModel** - contains logic to draw view of the game
+
+### Unit tests:
+
+Unit tests are not created because of couple reasons:
+
+1. Not requested in the task
+2. Take additional time and money to create
+3. Much easier and productive is to manually test applications of such size 
+4. To review unit tests style you may check other reposiotries (e.g. https://github.com/hamster-coder-pro/sport-radar/tree/master/SportRadar/SportRadar.Services.Tests)
