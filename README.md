@@ -13,10 +13,15 @@ The player enters or selects coordinates of the form “A5”, where “A” is 
 ## Gameplay
 
 There are two game modes implemented "Easy" and "Hard"
+
 In easy mode (type "easy") you can see all battleships on the battlefield - nice chance to test mechanics
+
 In hard mode (type "hard") - battleships are hidden
+
 To shoot - enter coodinates e.g. A1 or J10 or E5 and etc...
+
 To give up - type "quit"
+
 To exit the game (close application) - type "exit"
 
 ## Application architecture
